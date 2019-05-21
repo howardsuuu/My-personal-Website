@@ -15,12 +15,51 @@ href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 
 
 
+<!------JavaScript Prevent Right Click-->
 
+<script language=JavaScript>
+
+        
+                //Disable right mouse click Script
+                //By Geek Site.in
+                
+                
+                var message="Function Disabled!";
+                
+                ///////////////////////////////////
+                function clickIE4(){
+                if (event.button==2){
+                alert(message);
+                return false;
+                }
+                }
+                
+                function clickNS4(e){
+                if (document.layers||document.getElementById&&!document.all){
+                if (e.which==2||e.which==3){
+                alert(message);
+                return false;
+                }
+                }
+                }
+                
+                if (document.layers){
+                document.captureEvents(Event.MOUSEDOWN);
+                document.onmousedown=clickNS4;
+                }
+                else if (document.all&&!document.getElementById){
+                document.onmousedown=clickIE4;
+                }
+                
+                document.oncontextmenu=new Function("alert(message);return false")
+                
+                 
+                </script>
 
 
 <!----------Header section---------->
 <section id="header"> <!--id can only use once-->
-<div class="container text-center"> <!---div can define division or section-->>
+<div class="container text-center"> <!---div can define division or section-->
 <div class="user-box"><!--class can use multi-->
 <img src="Image/S__8667139.JPG"> <!--Specifies the URL of an image-->
 <h1>Kuan-Hao Su (Howard)</h1>
@@ -38,7 +77,7 @@ href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 <section id="user-info">
 <div class="nav-bar">           
 <nav class="navbar navbar-expand-lg">
-    <a class="navbar-brand" href="#"><img src="image/Howard-font.PNG"></a>
+    <a class="navbar-brand" href="#"><img src="Image/Howard-font.PNG"></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" 
     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <i class="fa fa-bars"></i>
@@ -69,7 +108,7 @@ href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 <div class="about container" id="about">
 <div class="row">
 <div class="col-md-6 text-center">
-<img src="image/S__8667139.JPG" class="profie-img">
+<img src="Image/S__8667139.JPG" class="profie-img">
 
 <!---Edu Background-->
 
