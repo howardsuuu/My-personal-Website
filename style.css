@@ -38,13 +38,17 @@ body
 {
     color: #fff;
 }
-.user-box .btn
+.user-box .btn 
 {
     padding: 10px 25px 10px 25px;
     margin:5px;
     border-radius: 30px;
     border: 2px solid #fff;
     background: transparent;
+}
+.user-box .btn a
+{
+    color: #fff;
 }
 .user-box .btn:focus{
     box-shadow: none !important;  
@@ -251,8 +255,18 @@ body
 .contact .col-md-4 .fa
 {
     padding: 10px;
-    font-size: 40px;
+    font-size: 45px;
 }
+.contact .col-md-4 p a
+{
+    color: #fff;
+    font-size: 24px;
+    line-height: 150%;
+}
+
+
+/*----botton----*/
+
 .contact .btn
 {
     padding: 10px 25px 10px 25px;
@@ -260,6 +274,10 @@ body
     border-radius: 30px;
     border: 2px solid #fff;
     background: transparent;
+}
+.contact .btn a
+{
+    color: #fff;
 }
 .contact .btn:focus{
     box-shadow: none !important;  
@@ -272,8 +290,4 @@ body
 .contact .btn .fa
 {
     margin-right: 10px
-}
-.contact .btn
-{
-    
 }

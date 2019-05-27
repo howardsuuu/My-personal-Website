@@ -15,7 +15,7 @@ href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 
 
 
-<!------JavaScript Prevent Right Click-->
+<!------JavaScript Prevent Right Click
 
 <script language=JavaScript>
 
@@ -55,7 +55,7 @@ href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
                 
                  
                 </script>
-
+--->
 
 <!----------Header section---------->
 <section id="header"> <!--id can only use once-->
@@ -65,14 +65,14 @@ href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 <h1>Kuan-Hao Su (Howard)</h1>
 <p> Senior in San Jose State University</p>
 <button type="button" class="btn btn-primary">
-        <i class="fa fa-download"></i>Resume</button>
+        <i class="fa fa-download"></i><a href="https://drive.google.com/open?id=1WsGl_-MbukZdqpkBh04XSmP0vJcUh5nK">Resume</a></button>
 </div>    
 </div>
 <div class="scroll-btn">
-<div class="scroll-bar"><a href=""><span> </span></a></div>
+<div class="scroll-bar"><a href="#about"><span> </span></a></div>
 </div>
 </section>
-<!---------------User-Info Section----------------------->
+<!---------------Navigate----------------------->
 
 <section id="user-info">
 <div class="nav-bar">           
@@ -85,20 +85,17 @@ href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <div class="collapse navbar-collapse" id="navbarNav">
     <ul class="navbar-nav ml-auto"><!---margin-right make sub-stuff move to right side-->
     <li class="nav-item">
-        <a class="nav-link" href="#">HOME</a>
+        <a class="nav-link" href="#top">HOME</a>
     </li>
         <li class="nav-item">
-            <a class="nav-link" href="#">ABOUT ME</a>
+            <a class="nav-link" href="#about">ABOUT ME</a>
         </li>
-            <li class="nav-item">
-            <a class="nav-link" href="#">RESUME</a>
-            </li>
-            <li class="nav-item">
-            <a class="nav-link" href="#">TECHNICAL SKILLS</a> 
-            </li>
-            <li class="nav-item">
-            <a class="nav-link" href="#">CONTACT</a>
-             </li>
+        <li class="nav-item">
+        <a class="nav-link" href="#skills-bar">TECHNICAL SKILLS</a> 
+        </li>
+        <li class="nav-item">
+        <a class="nav-link" href="#contact">CONTACT</a>
+        </li>
      </ul>
     </div>
 </nav>
@@ -131,7 +128,7 @@ href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 
 
 </div>
-<div class="col-md-6">
+<div class="col-md-6" id="skills-bar">
 <h3>WHO AM I ?</h3>
 <p>
 Howard is a Detail-oriented and highly motivated student seeking 
@@ -261,30 +258,42 @@ Howard is a Detail-oriented and highly motivated student seeking
 <div class="contact" id='contact'>
 <div class='container text-center'>
 <h1>Contact Me</h1>
-<p class="text-center">For more information feel free to contact me</p>
+<p class="text-center">Feel free to contact me for more information</p>
 <div class="row">
 
 <div class="col-md-4">
 <i class="fa fa-phone"></i>
-<p>+1 (408)-620-4284<br>+886 987-711-132</p>
+<p>+1 (408)-620-4284<br></p>
 </div>
 <div class="col-md-4">
         <i class="fa fa-envelope"></i>
-        <p>howardsu666@gmail.com</p>
+        <p><a href = "mailto: kuanhao.su@sjsu.edu">kuanhao.su@sjsu.edu</a></p>
 </div>
 <div class="col-md-4">
         <i class="fa fa-internet-explorer"></i>
-        <p>howardsu666@gmail</p>
+        <p><a href="https://www.linkedin.com/in/kuan-hao-su-027861144">
+        LinkedIn</a></p>
 </div>
 </div>
 
 <button type="button" class="btn btn-primary">
-    <i class="fa fa-download"></i>Resume</button>
+    <i class="fa fa-download"></i><a href="https://drive.google.com/open?id=1WsGl_-MbukZdqpkBh04XSmP0vJcUh5nK">Resume</a></button>
 <button type="button" class="btn btn-primary">
-    <i class="fa fa-rocket"></i>GitHub</button>
+    <i class="fa fa-rocket"></i><a href= "https://github.com/howardsuuu">GitHub</a></button>
 </div>
 
 </div>
 </section>
+
+<!-----Smooth Scroll----->
+<script src="smooth-scroll.js"></script>
+
+<script>
+	var scroll = new SmoothScroll('a[href*="#"]');
+</script>
+
+
+
+
 </body>
 </html>
