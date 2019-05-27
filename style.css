@@ -166,10 +166,15 @@ body
     color: #fff !important;
 }
 /*----Skills bar----*/
+.col-md-6 h3 p
+{
+    color: #fff
+}
 .skills-bar p /*---索引 class= skills-bar 裡所有的 <p> ---*/
 {            /*--- 一次改動所有class= progress, progress-bar 的物件---*/
     margin-bottom: 4px;
     font-weight: 600;
+    color: firebrick;
 }
 .progress
 {
