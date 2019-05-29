@@ -95,7 +95,8 @@ body
 {
     padding-top: 70px; /*---上下留白多少---*/
     padding-bottom: 40px;
-
+    max-width: 600px;
+    margin: 0 auto;
 }
 .profie-img
 {
