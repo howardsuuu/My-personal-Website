@@ -103,23 +103,43 @@ body
 }
 .resume
 {
-    padding-top: 30px;
+
     padding-bottom: 30px;
     position: relative;
-    left: 25px;
+    left: 30px;
     
     background: #fff;
     
 }
+.resume h4
+{
+    text-align: center;
+}
 .resume h3
 {
-    margin-bottom: 15px;
+    margin-bottom: 10px;
     text-align: left;
+}
+
+
+.resume ul
+{
+    text-align: left;
+    line-height: 35px;
 }
 .timeline
 {
     position: relative;
     list-style: none;
+}
+.timeline h6
+{
+    line-height: 35px;
+}
+.timeline h5
+{
+    padding-top: 10px;
+    padding-bottom: 15px;
 }
 .timeline h4
 {
@@ -128,6 +148,7 @@ body
     font-size: 25px;
     margin-top: 15px;
 }
+
 .timeline p
 {
     margin-bottom: 4px;
