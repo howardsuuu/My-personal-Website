@@ -44,10 +44,11 @@ sr.reveal('.about__img',{});
 sr.reveal('.about__subtitle',{delay: 400}); 
 sr.reveal('.about__text',{delay: 400}); 
 
-/*SCROLL Education*/
+/*SCROLL EDUCATION*/
 sr.reveal('.edu__img',{}); 
 sr.reveal('.edu__subtitle',{delay: 400});
 sr.reveal('.edu__subtitle2',{delay: 400});
+sr.reveal('.edu__year',{delay: 800});
 sr.reveal('.edu__text',{delay: 400}); 
 
 /*SCROLL SKILLS*/
@@ -56,7 +57,16 @@ sr.reveal('.skills__text',{});
 sr.reveal('.skills__data',{interval: 150}); 
 sr.reveal('.skills__img',{delay: 600});
 
+/*SCROLL EXPERIENCE*/
+sr.reveal('.experience__img',{}); 
+sr.reveal('.experience__subtitle',{delay: 400}); 
+sr.reveal('.experience__year',{delay: 800}); 
+sr.reveal('.experience__text',{delay: 400}); 
+
+
+
 /*SCROLL WORK*/
+sr.reveal('.edu__img',{interval: 200}); 
 sr.reveal('.work__img',{interval: 200}); 
 
 /*SCROLL CONTACT*/
